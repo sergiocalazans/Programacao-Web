@@ -29,32 +29,32 @@ O conteúdo de cada aula está organizado em branches separadas para isolar os p
 
 > **Nota:** Para visualizar o código de uma aula específica, você pode usar o menu de branches do GitHub (no canto superior esquerdo desta página) ou clonar o repositório e usar o comando `git checkout <nome-da-branch>`.
 
-- **[Aula 01: Introdução ao HTML](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/tree/aula-01)**
+- **Aula 01: Introdução ao HTML**
 
   > Fundamentos do HTML, estrutura de documentos, principais tags e criação de formulários.
   > _Branch: `aula-01`_
 
-- **[Aula 02: Introdução ao CSS e Estrutura de Branches](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/tree/aula-02)**
+- **Aula 02: Introdução ao CSS e Estrutura de Branches**
 
   > Conceitos de CSS, seletores, pseudo-classes e organização de projetos Git com branches por exercício.
   > _Branches: `aula-02-1`, `aula-02-2`_
 
-- **[Aula 03: Transição de Páginas na Web](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/tree/aula-03)**
+- **Aula 03: Transição de Páginas na Web**
 
   > Organização de arquivos em projetos multi-páginas e navegação usando a tag `<a>` (hiperlink).
   > _Branch: `aula-03`_
 
-- **[Aula 04: Construção de Cards com `<div>` e Flexbox](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/tree/aula-04)**
+- **Aula 04: Construção de Cards com `<div>` e Flexbox**
 
   > Uso de `divs` como containers e introdução ao Flexbox para criação de layouts responsivos.
   > _Branches: `aula-04-1`, `aula-04-2`_
 
-- **[Aula 05: Introdução ao JavaScript](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/tree/aula-05)**
+- **Aula 05: Introdução ao JavaScript**
 
   > Manipulação do DOM, eventos (`onclick`), funções e lógica para criar páginas interativas.
   > _Branches: `aula-05-1`, `aula-05-2`, `aula-05-3`_
 
-- **[Aula 06: Template Strings](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/tree/aula-06)**
+- **Aula 06: Template Strings**
   > Construção dinâmica de HTML com JavaScript usando Template Strings para renderizar dados.
   > _Branch: `aula-06`_
 
