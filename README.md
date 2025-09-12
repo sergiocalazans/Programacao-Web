@@ -1,8 +1,6 @@
 # Programação Web - Bacharelado em Ciência da Computação
 
-<div style="align-items: center;">
-  <img src="banner.png" alt="Banner da disciplina"/>
-</div>
+<img src="banner.png" alt="Banner da disciplina"/>
 
 ## Introdução
 
