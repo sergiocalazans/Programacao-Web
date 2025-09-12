@@ -1,6 +1,8 @@
-![Banner da Disciplina](banner.png)
+# Programação Web - Bacharelado em Ciência da Computação
 
-# Programação Web - Bacharelado em Ciência da Computação (PSI121A)
+<div align="center">
+![Banner da Disciplina](banner.png)
+</div>
 
 ## Introdução
 
