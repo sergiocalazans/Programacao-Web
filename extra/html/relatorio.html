@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Relatório Alunos</title>
+  </head>
+  <body>
+    <button class="button-form" onclick="relatorio()">Mostrar Relatório</button
+    ><br />
+    <button class="button-reload" onclick="recarregar()">
+      Fechar Relatório
+    </button>
+    <br />
+
+    <br />
+
+    <table id="tabela" cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+          <th>Matrícula</th>
+          <th>Curso</th>
+          <th>Data de Nascimento</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-body">
+        <!-- JS vai inserir aqui -->
+      </tbody>
+    </table>
+
+    <script src="../js/relatorio.js"></script>
+  </body>
+</html>

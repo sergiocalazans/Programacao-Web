@@ -1,0 +1,35 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <form id="formulario">
+      <input
+        class="input-form"
+        name="usuario"
+        type="text"
+        placeholder="Usuário ou E-mail"
+        required
+      />
+      <br />
+
+      <input
+        class="input-form"
+        name="senha"
+        type="password"
+        placeholder="Senha"
+        required
+      />
+      <br />
+      <button type="button" class="button-form" onclick="entrar()">
+        Entrar
+      </button>
+    </form>
+
+    <p id="mensagem-erro" style="color: red"></p>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

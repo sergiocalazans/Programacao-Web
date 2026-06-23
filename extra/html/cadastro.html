@@ -1,0 +1,67 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Cadastro Alunos</title>
+  </head>
+
+  <body>
+    <form id="formulario">
+      <input class="input-form" name="nome" type="text" placeholder="Nome" />
+      <br />
+      <input
+        class="input-form"
+        name="sobrenome"
+        type="text"
+        placeholder="Sobrenome"
+      />
+      <br />
+      <input
+        class="input-form"
+        name="e-mail"
+        type="email"
+        placeholder="E-mail"
+      />
+      <br />
+      <input
+        class="input-form"
+        name="matricula"
+        type="text"
+        placeholder="Matricula"
+      />
+      <br />
+      <input class="input-form" name="curso" type="text" placeholder="Curso" />
+      <br />
+      <input
+        class="input-form"
+        name="data_nascimento"
+        type="date"
+        placeholder="Data de Nascimento"
+      />
+      <br />
+      <button type="button" class="button-form" onclick="enviar()">
+        Salvar
+      </button>
+    </form>
+
+    <table id="tabela" cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+          <th>Matrícula</th>
+          <th>Curso</th>
+          <th>Data de Nascimento</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-body">
+        <!-- JS vai inserir aqui -->
+      </tbody>
+    </table>
+
+    <script src="../js/cadastro.js"></script>
+  </body>
+</html>
