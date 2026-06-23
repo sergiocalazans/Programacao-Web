@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.calculadora {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.linha-operacao {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+input[type="number"] {
+  width: 80px;
+}
+input[readonly] {
+  width: 120px;
+  background-color: #eee;
+}
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+.operador {
+  background-color: #ee5000;
+  width: 40px;
+}
+.limpar {
+  background-color: #ff8000;
+  width: 80px;
+  font-size: 14px;
+}
+span {
+  font-weight: bold;
+}

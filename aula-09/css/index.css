@@ -1,0 +1,95 @@
+h2 {
+  text-align: center;
+}
+
+.input-form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Arial";
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  width: 280px;
+  margin-bottom: 3px;
+}
+
+.button-form {
+  background-color: #088a68;
+}
+
+.button-reload {
+  background-color: red;
+}
+
+.button-form,
+.button-reload {
+  color: #fff;
+  border-radius: 3px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+}
+
+.button-form:hover {
+  background-color: #04b486;
+  cursor: pointer;
+}
+
+.button-reload:hover {
+  background-color: #b30303;
+  cursor: pointer;
+}
+
+.lista-usuarios {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#tabela {
+  border-collapse: collapse;
+  width: 70%;
+  cursor: pointer;
+}
+
+/* Cabeçalho */
+#tabela thead tr {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+#tabela thead th {
+  padding: 12px;
+}
+
+/* Linhas do corpo */
+#tabela tbody td {
+  padding: 10px;
+}
+
+#tabela tbody tr:nth-child(2n) {
+  background-color: rgb(206, 206, 235);
+}
+
+#tabela tbody tr:nth-child(2n + 1) {
+  background-color: rgb(213, 231, 236);
+}
+
+/* Hover apenas no corpo */
+#tabela tbody tr:hover {
+  background-color: yellow;
+}
+
+.atualizar {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 20%;
+  border-radius: 20px;
+}

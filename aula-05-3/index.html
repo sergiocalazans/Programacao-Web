@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 05 - Exercício 3</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="calculadora">
+      <!-- Linha da Soma -->
+      <div class="linha-operacao">
+        <input type="number" id="soma-v1" value="10" />
+        <input type="number" id="soma-v2" value="10" />
+        <button class="operador" onclick="calcular('soma')">+</button>
+        <span>=</span>
+        <input
+          type="text"
+          id="soma-resultado"
+          readonly
+          placeholder="Resultado"
+        />
+        <button class="limpar" onclick="limpar('soma')">Limpar</button>
+      </div>
+
+      <!-- Linha da Subtração -->
+      <div class="linha-operacao">
+        <input type="number" id="sub-v1" />
+        <input type="number" id="sub-v2" />
+        <button class="operador" onclick="calcular('sub')">-</button>
+        <span>=</span>
+        <input
+          type="text"
+          id="sub-resultado"
+          readonly
+          placeholder="Resultado"
+        />
+        <button class="limpar" onclick="limpar('sub')">Limpar</button>
+      </div>
+
+      <!-- Linha da Multiplicação -->
+      <div class="linha-operacao">
+        <input type="number" id="mult-v1" />
+        <input type="number" id="mult-v2" />
+        <button class="operador" onclick="calcular('mult')">*</button>
+        <span>=</span>
+        <input
+          type="text"
+          id="mult-resultado"
+          readonly
+          placeholder="Resultado"
+        />
+        <button class="limpar" onclick="limpar('mult')">Limpar</button>
+      </div>
+
+      <!-- Linha da Divisão -->
+      <div class="linha-operacao">
+        <input type="number" id="div-v1" />
+        <input type="number" id="div-v2" />
+        <button class="operador" onclick="calcular('div')">/</button>
+        <span>=</span>
+        <input
+          type="text"
+          id="div-resultado"
+          readonly
+          placeholder="Resultado"
+        />
+        <button class="limpar" onclick="limpar('div')">Limpar</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

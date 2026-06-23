@@ -1,0 +1,111 @@
+:root {
+  --cor-fundo-card: white;
+  --cor-texto-card: black;
+  --cor-borda-card: var(--cor-texto-card);
+  --cor-botao-card: var(--cor-texto-card);
+  --cor-youtube: rgb(255, 23, 23);
+  --cor-instagram: #df356c;
+  --cor-tiktok: rgb(32, 32, 32);
+  --cor-texto-card-hover: var(--cor-fundo-card);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 60px;
+}
+
+.lista-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  height: 400px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  background-color: var(--cor-fundo-card);
+  color: var(--cor-texto-card);
+  border: 2px solid var(--cor-borda-card);
+  padding: 10px;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.card h2 {
+  font-size: 30px;
+}
+
+.card p {
+  font-size: 18px;
+}
+
+.card-icon {
+  font-size: 60px;
+}
+
+.card-botao {
+  background-color: var(--cor-botao-card);
+  color: var(--cor-fundo-card);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 70%;
+  font-weight: 700;
+}
+
+.card-botao:hover {
+  transform: scale(1.1);
+}
+
+.card:hover .card-icon {
+  color: var(--cor-fundo-card);
+}
+
+.card:hover {
+  color: var(--cor-texto-card-hover);
+}
+
+.card:hover .card-botao {
+  background-color: var(--cor-fundo-card);
+}
+
+#youtube:hover .card-botao {
+  color: var(--cor-youtube);
+  border: 5px double var(--cor-youtube);
+}
+
+#youtube:hover {
+  background-color: var(--cor-youtube);
+  border: 2px solid var(--cor-youtube);
+}
+
+#instagram:hover .card-botao {
+  color: var(--cor-instagram);
+  border: 5px double var(--cor-instagram);
+}
+
+#instagram:hover {
+  background-color: var(--cor-instagram);
+  border: 2px solid var(--cor-instagram);
+}
+
+#tiktok:hover .card-botao {
+  color: var(--cor-tiktok);
+  border: 5px double var(--cor-tiktok);
+}
+
+#tiktok:hover {
+  background-color: var(--cor-tiktok);
+  border: 2px solid var(--cor-tiktok);
+}

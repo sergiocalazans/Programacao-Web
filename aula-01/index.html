@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 1. Título definido para a página (aparece na aba do navegador) -->
+    <title>Exercício Aula 01 - HTML</title>
+  </head>
+  <body>
+    <!-- 2. Heading tag com o título da página -->
+    <h1>Formulário de Cadastro - Aula 01</h1>
+
+    <!-- 3. Pelo menos 10 campos de formulário -->
+    <form>
+      <!-- Campo 1: Caixa de texto -->
+      <label for="nome">Nome Completo:</label><br />
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Digite seu nome aqui..."
+        size="30"
+      /><br /><br />
+
+      <!-- Campo 2: Senha -->
+      <label for="senha">Senha:</label><br />
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        maxlength="8"
+      /><br /><br />
+
+      <!-- Campo 3: E-mail -->
+      <label for="email">E-mail:</label><br />
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <!-- Campo 4: Data de Nascimento -->
+      <label for="data_nascimento">Data de Nascimento:</label><br />
+      <input
+        type="date"
+        id="data_nascimento"
+        name="data_nascimento"
+      /><br /><br />
+
+      <!-- Campo 5: Telefone -->
+      <label for="telefone">Telefone:</label><br />
+      <input type="tel" id="telefone" name="telefone" /><br /><br />
+
+      <!-- Campo 6: Número -->
+      <label for="quantidade">Quantidade de filhos:</label><br />
+      <input
+        type="number"
+        id="quantidade"
+        name="quantidade"
+        min="0"
+        max="10"
+      /><br /><br />
+
+      <!-- Campo 7: Caixa de verificação -->
+      <input type="checkbox" id="termos" name="termos" />
+      <label for="termos">Aceito os termos de uso</label><br /><br />
+
+      <!-- Campo 8: Opção (Radio) -->
+      <p>Gênero:</p>
+      <input type="radio" id="masc" name="genero" value="masculino" />
+      <label for="masc">Masculino</label><br />
+      <input type="radio" id="fem" name="genero" value="feminino" />
+      <label for="fem">Feminino</label><br /><br />
+
+      <!-- Campo 9: Seleção (Dropdown) -->
+      <label for="estado">Estado:</label><br />
+      <select id="estado" name="estado">
+        <option>Escolha</option>
+        <option value="PR">Paraná</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="RS">Rio Grande do Sul</option></select
+      ><br /><br />
+
+      <!-- Campo 10: Área de texto -->
+      <label for="mensagem">Deixe sua mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea
+      ><br /><br />
+
+      <!-- Campo 11 (extra): Botão -->
+      <button type="submit">Gravar</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Comunicação Cliente e Servidor</title>
+  </head>
+  <body>
+    <form id="formCadastro">
+      <input
+        id="nome"
+        class="input-form"
+        name="nome"
+        type="text"
+        placeholder="Nome"
+      />
+      <br />
+      <input
+        id="sobrenome"
+        class="input-form"
+        name="sobrenome"
+        type="text"
+        placeholder="Sobrenome"
+      />
+      <br />
+      <input
+        id="pais-origem"
+        class="input-form"
+        name="pais-origem"
+        type="text"
+        placeholder="País de Origem"
+      />
+      <br />
+      <br />
+      <button type="button" class="button-form" onclick="validarCadastro()">
+        Salvar
+      </button>
+    </form>
+    <div id="moeda"></div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

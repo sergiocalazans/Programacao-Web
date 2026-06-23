@@ -1,0 +1,30 @@
+.input-form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Arial";
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  width: 280px;
+  margin-bottom: 3px;
+}
+
+.button-form {
+  background-color: #088a68;
+  color: #fff;
+  border-radius: 3px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+}
+
+.button-form:hover {
+  background-color: #04b486;
+  cursor: pointer;
+}
+
+.erro {
+  border-color: red;
+}

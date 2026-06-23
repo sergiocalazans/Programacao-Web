@@ -1,0 +1,25 @@
+
+.tabela-carros{
+    cursor: pointer;
+}
+
+.tabela-carros tr td{
+    padding: 10px;
+}
+
+.tabela-carros tr:nth-child(2n){
+    background-color: rgb(206, 206, 235);
+}
+
+.tabela-carros tr:nth-child(2n+1){
+    background-color: rgb(213, 231, 236);
+}
+
+.tabela-carros tr:hover{
+    background-color: yellow;
+}
+
+.tabela-carros tr:first-child{
+    background-color: black;
+    color: white;
+}

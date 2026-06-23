@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+    <title>Comunicação Cliente e Servidor</title>
+  </head>
+  <body>
+    <form id="form-cadastro">
+      <input
+        id="email"
+        class="input-form"
+        name="email"
+        type="email"
+        placeholder="E-mail"
+      />
+      <br />
+      <input
+        id="senha"
+        class="input-form"
+        name="senha"
+        type="password"
+        placeholder="Senha"
+      />
+      <br />
+      <button type="button" class="button-form" onclick="validarCadastro()">
+        Cadastrar
+      </button>
+    </form>
+    <div id="retorno"></div>
+  </body>
+</html>

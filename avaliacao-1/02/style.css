@@ -1,0 +1,17 @@
+.ilhas {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ilha-img img{
+    max-width: 250px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.ilha-img img:hover{
+    border: solid #5500FF 3px;
+}

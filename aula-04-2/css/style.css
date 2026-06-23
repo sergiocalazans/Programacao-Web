@@ -1,0 +1,86 @@
+/* Reset básico e estilos do corpo da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9e9e9;
+}
+
+/* Container principal para centralizar o card na tela */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* O Card principal - novas dimensões e estilo */
+.card {
+  width: 300px;
+  height: 320px;
+  background-color: #6a1a3e; /* Cor vinho escuro do slide */
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Cabeçalho do Card */
+.card-header {
+  text-align: center;
+  background-color: #d13e68; /* Rosa mais claro */
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 0.8em;
+  margin: 0 auto 20px auto; /* Centraliza e adiciona margem */
+  width: 80%;
+}
+
+/* Corpo do Card */
+.card-body h2 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.info-grid {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.info-grid .label {
+  display: block;
+  font-size: 0.7em;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+/* Rodapé do Card */
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  font-size: 4em; /* Emoji grande */
+}
+
+.download-button {
+  background-color: #8e44ad; /* Roxo */
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}

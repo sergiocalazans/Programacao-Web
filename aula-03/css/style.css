@@ -1,0 +1,66 @@
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* Estiliza os títulos principais */
+h1,
+h2 {
+  color: #0056b3;
+}
+
+/* Adiciona uma borda e preenchimento ao redor dos formulários */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limita a largura do formulário */
+}
+
+/* Estiliza os rótulos (labels) */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estiliza os campos de input e textarea */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Estiliza o botão */
+button {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+/* Estiliza os links */
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
